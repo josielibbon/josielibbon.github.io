@@ -1,3 +1,8 @@
 h1 {
-    color: blue; 
+    color: white; 
 }
+body{ background-color: aliceblue,}
+body {
+    background: linear-gradient(to left top, #FFD2ED, #DF82CB) fixed;
+  }
+  
