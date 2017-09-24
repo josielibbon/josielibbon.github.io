@@ -1,8 +1,9 @@
 h1 {
     color: white;
     display: block;
+    font-family: "Palatino";
     font-size: 20em;
-    -webkit-margin-before: -.15em;
+    -webkit-margin-before: .05em;
     -webkit-margin-after: 0.67em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
