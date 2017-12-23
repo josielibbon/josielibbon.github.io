@@ -2,17 +2,16 @@
 h1 {
     color: white;
     display: block;
-    font-size: 15em;
+    font-size: 40vh;
     font-weight: bold;
     text-align: center;
     margin: 0;
     font-family: "Lobster Two";
+    line-height: 1.1;
+    padding-top: 5vh
 }
 
-body {
-    margin: 0;
-    
-}
+
 
 @keyframes Gradient { 
     0% {background-position:0% 50%}
@@ -23,27 +22,34 @@ body {
 .mainHeader {
     background: linear-gradient(90deg, #74b3ed, #a9a1dc, #e9c7f2);
 	background-size: 200% 200%;
-    animation: Gradient 10s ease infinite;
+    animation: Gradient 7s ease infinite;
     text-align: center;
+    height: 100vh;
+    
+    
 }
 
-/* Add a black background color to the top navigation */
 .topnav {
-    background-color: rgba(97, 149, 252, 0.65);
-    display: inline-block;
-    text-align: center;
-    overflow: hidden;
+    position: fixed;
+    top: 0px ;
+    width: 100%;
+    background-color: rgba(118, 160, 236, 100)
+    
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    float: left;
-    display: block;
+  
+    display: inline-block;
     color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    padding: 14px; /*This make the nav bar thicker*/
+    text-decoration: none; 
     font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    
+   
+    
 }
 
 /* Change the color of links on hover */
@@ -57,9 +63,32 @@ body {
     background-color: #C3B0EE;
     color: white;
 }
-ul {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+
+
+body{
+    color: rgb(86, 79, 109);
+    display: block;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+   
+
+
 }
 
+p{
+
+
+
+
+
+}
+section{
+
+    padding-top: 55px;
+    margin: 0 auto;
+    width: 650px
+
+
+}
