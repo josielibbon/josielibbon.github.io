@@ -1,16 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster+Two');
-h1 {
-    color: white;
-    display: block;
-    font-size: 40vh;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-    font-family: "Lobster Two";
-    line-height: 1.1;
-    padding-top: 5vh
+
+.nameContainer {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
 
+h1 {
+  color: rgb(255, 255, 255);
+  display: block;
+  font-size: 20vw;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  font-family: "Lobster Two";
+  line-height: 1.1;
+  padding-top: 3vw;
+}
 
 
 @keyframes Gradient { 
@@ -20,22 +29,39 @@ h1 {
 }
     
 .mainHeader {
-    background: linear-gradient(90deg, #74b3ed, #a9a1dc, #e9c7f2);
-	background-size: 200% 200%;
-    animation: Gradient 7s ease infinite;
+    background: linear-gradient(90deg, #8EC9FD, #958BD6, #EAC9F3);
+	  background-size: 200% 200%;
+    animation: Gradient 5s ease infinite;
     text-align: center;
     height: 100vh;
-    
-    
+    position: relative;
 }
+
 
 .topnav {
     position: fixed;
     top: 0px ;
     width: 100%;
-    background-color: rgba(118, 160, 236, 100)
-    
+    background-color: rgba(118, 160, 236, 100);
+    z-index: 9999
 }
+
+hr {
+  animation: gradientScroll 10s linear infinite;
+  background-color: #8EC5FC;
+  background: linear-gradient(90deg,  #8EC9FD, #958BD6, #EAC9F3);
+  background-size: 200% 200%;
+  transition: all 0.2s ease;
+  position: relative;
+  width: 100%;
+  height: 8px;
+}
+
+
+
+
+
+
 
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -55,7 +81,7 @@ h1 {
 /* Change the color of links on hover */
 .topnav a:hover {
     background-color: #E9C3E7;
-    color: #000000;
+    color: #60557E;
 }
 
 /* Add a color to the active/current link */
@@ -64,31 +90,154 @@ h1 {
     color: white;
 }
 
+h2{
+
+    font-family: 'Lobster Two', cursive;
+    color: #60557E;
+    font-size: 50px;
+
+}
 
 body{
-    color: rgb(86, 79, 109);
+    color: rgb(82, 77, 100);
     display: block;
-    font-family: 'Slabo 27px', serif;
-    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px;
     font-weight: 300;
     margin: 0;
-   
-
-
 }
 
-p{
 
 
-
-
-
-}
 section{
 
     padding-top: 55px;
     margin: 0 auto;
     width: 650px
 
+}
+
+footer {
+
+  padding-top: 55px;
+  margin: 0 auto;
+  width: 1000px
+
+
 
 }
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(118, 160, 236, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #FFFFFF;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #EAC9F3;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #958BD6;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+footer{
+  animation: gradientScroll 10s linear infinite;
+  background-color: #8EC5FD;
+  background-image: linear-gradient(90deg, #8EC9FD, #958BD6, #EAC9F3);
+  background-size: 200% 200%;
+  color: #FFFFFF;
+  font-family: 'Lobster Two', cursive;
+  font-size: 35px;
+  letter-spacing: 0.1em;
+  padding: 32px 32px 24px;
+  text-align: center;
+  width: 100%
+}
+
+
+
+
+
