@@ -85,7 +85,7 @@ hr {
   font-size: 10px;
   color: white;
   text-align: center;
-
+ 
   text-decoration: none;
 }
 
@@ -95,7 +95,7 @@ hr {
   color: #0375B4;
  
   text-decoration: none; 
-  font-size: 25px;
+  font-size: 24px;
   text-transform: uppercase;
   text-align: center;
   font-family: 'Raleway', sans-serif;
@@ -109,7 +109,7 @@ hr {
   border: none;
   outline: none;
   color: #0375B4;
-  padding-top: 20px;
+  padding: 14px 16px;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
@@ -130,6 +130,7 @@ hr {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+ 
   
 }
 
@@ -137,17 +138,19 @@ hr {
 .dropdown-content a {
   float: none;
   color: black;
-  padding: 12px 16px;
+  padding: 14px 18px;
   text-decoration: none;
   display: block;
   text-align: left;
   font-size: 5px; 
+
  
 }
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #ddd;
+  
 }
 
 /* Show the dropdown menu on hover */
@@ -165,7 +168,7 @@ hr {
     text-transform: uppercase;
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    
+    padding-top: 15px;
    
     
 }
@@ -296,6 +299,7 @@ img {vertical-align: middle;}
 .active, .dot:hover {
   background-color: #3366FF;
 }
+
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
