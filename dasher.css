@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster+Two');
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Bitter|Bungee+Shade|Diplomata+SC|Rye|Slabo+27px');
-
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 .nameContainer {
   margin: 0;
   position: absolute;
@@ -73,13 +74,13 @@ hr {
   font-size: 25px;
   text-transform: uppercase;
   text-align: center;
-  font-family: 'Slabo 27px', serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 /* Links inside the navbar */
 .navbar a {
   float: none;
-  font-size: 16px;
+  font-size: 10px;
   color: white;
   text-align: center;
 
@@ -95,7 +96,7 @@ hr {
   font-size: 25px;
   text-transform: uppercase;
   text-align: center;
-  font-family: 'Slabo 27px', serif;
+  font-family: 'Raleway', sans-serif;
   overflow: hidden;
 }
 
@@ -110,6 +111,7 @@ hr {
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
+
 }
 
 /* Add a red background color to navbar links on hover */
@@ -126,6 +128,7 @@ hr {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  
 }
 
 /* Links inside the dropdown */
@@ -136,6 +139,8 @@ hr {
   text-decoration: none;
   display: block;
   text-align: left;
+  font-size: 5px; 
+ 
 }
 
 /* Add a grey background color to dropdown links on hover */
@@ -150,14 +155,14 @@ hr {
 /* Style the links inside the navigation bar */
 .topnav a {
   
-    display: inline-block;          
+    display: inline-block;         
     color: #0375B4;
     padding: 14px; /*This make the nav bar thicker*/
     text-decoration: none; 
-    font-size: 25px;
+    font-size: 24px;
     text-transform: uppercase;
     text-align: center;
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Raleway', sans-serif;
     
    
     
@@ -176,19 +181,21 @@ hr {
 }
 h2{
 
-    font-family: 'Bitter', serif;
-    color: #262228;
+  font-family: 'Quicksand', sans-serif; 
+    color: #6C6C6D;
     font-size: 50px;
+  
 
 }
 
 body{
-    color: #262228;
+    color: #5E5E5E;
     display: block;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 22px;
-    font-weight: 300;
+    font-weight: 200;
     margin: 0;
+   text-align: left;
 }
 
 
@@ -197,8 +204,8 @@ section{
 
     padding: 55px 20px 0;
     margin: 0 auto;
-    max-width: 650px;
-
+    max-width: 1000px;
+  
 }
 
 footer {
@@ -209,13 +216,13 @@ footer {
 }
 
 * {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
+body {font-family: 'Quicksand', sans-serif; margin:0}
 .mySlides {display: none}
 img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 600px;
   position: relative;
   margin: auto;
 }
