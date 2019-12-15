@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster+Two');
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Bitter|Bungee+Shade|Diplomata+SC|Rye|Slabo+27px');
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+=======
+
+>>>>>>> e8f784097cdc7c916969e27103a6012ecd067fc0
 .nameContainer {
   margin: 0;
   position: absolute;
@@ -74,13 +78,21 @@ hr {
   font-size: 25px;
   text-transform: uppercase;
   text-align: center;
+<<<<<<< HEAD
   font-family: 'Raleway', sans-serif;
+=======
+  font-family: 'Slabo 27px', serif;
+>>>>>>> e8f784097cdc7c916969e27103a6012ecd067fc0
 }
 
 /* Links inside the navbar */
 .navbar a {
   float: none;
+<<<<<<< HEAD
   font-size: 10px;
+=======
+  font-size: 16px;
+>>>>>>> e8f784097cdc7c916969e27103a6012ecd067fc0
   color: white;
   text-align: center;
 
@@ -96,7 +108,11 @@ hr {
   font-size: 25px;
   text-transform: uppercase;
   text-align: center;
+<<<<<<< HEAD
   font-family: 'Raleway', sans-serif;
+=======
+  font-family: 'Slabo 27px', serif;
+>>>>>>> e8f784097cdc7c916969e27103a6012ecd067fc0
   overflow: hidden;
 }
 
@@ -111,7 +127,10 @@ hr {
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
+<<<<<<< HEAD
 
+=======
+>>>>>>> e8f784097cdc7c916969e27103a6012ecd067fc0
 }
 
 /* Add a red background color to navbar links on hover */
@@ -128,7 +147,10 @@ hr {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+<<<<<<< HEAD
   
+=======
+>>>>>>> e8f784097cdc7c916969e27103a6012ecd067fc0
 }
 
 /* Links inside the dropdown */
@@ -139,8 +161,11 @@ hr {
   text-decoration: none;
   display: block;
   text-align: left;
+<<<<<<< HEAD
   font-size: 5px; 
  
+=======
+>>>>>>> e8f784097cdc7c916969e27103a6012ecd067fc0
 }
 
 /* Add a grey background color to dropdown links on hover */
@@ -155,6 +180,7 @@ hr {
 /* Style the links inside the navigation bar */
 .topnav a {
   
+<<<<<<< HEAD
     display: inline-block;         
     color: #0375B4;
     padding: 14px; /*This make the nav bar thicker*/
@@ -163,6 +189,16 @@ hr {
     text-transform: uppercase;
     text-align: center;
     font-family: 'Raleway', sans-serif;
+=======
+    display: inline-block;          
+    color: #0375B4;
+    padding: 14px; /*This make the nav bar thicker*/
+    text-decoration: none; 
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+>>>>>>> e8f784097cdc7c916969e27103a6012ecd067fc0
     
    
     
@@ -181,14 +217,21 @@ hr {
 }
 h2{
 
+<<<<<<< HEAD
   font-family: 'Quicksand', sans-serif; 
     color: #6C6C6D;
     font-size: 50px;
   
+=======
+    font-family: 'Bitter', serif;
+    color: #262228;
+    font-size: 50px;
+>>>>>>> e8f784097cdc7c916969e27103a6012ecd067fc0
 
 }
 
 body{
+<<<<<<< HEAD
     color: #5E5E5E;
     display: block;
     font-family: 'Quicksand', sans-serif;
@@ -196,6 +239,14 @@ body{
     font-weight: 200;
     margin: 0;
    text-align: left;
+=======
+    color: #262228;
+    display: block;
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0;
+>>>>>>> e8f784097cdc7c916969e27103a6012ecd067fc0
 }
 
 
@@ -204,8 +255,13 @@ section{
 
     padding: 55px 20px 0;
     margin: 0 auto;
+<<<<<<< HEAD
     max-width: 1000px;
   
+=======
+    max-width: 650px;
+
+>>>>>>> e8f784097cdc7c916969e27103a6012ecd067fc0
 }
 
 footer {
@@ -216,13 +272,21 @@ footer {
 }
 
 * {box-sizing: border-box}
+<<<<<<< HEAD
 body {font-family: 'Quicksand', sans-serif; margin:0}
+=======
+body {font-family: Verdana, sans-serif; margin:0}
+>>>>>>> e8f784097cdc7c916969e27103a6012ecd067fc0
 .mySlides {display: none}
 img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
+<<<<<<< HEAD
   max-width: 600px;
+=======
+  max-width: 1000px;
+>>>>>>> e8f784097cdc7c916969e27103a6012ecd067fc0
   position: relative;
   margin: auto;
 }
