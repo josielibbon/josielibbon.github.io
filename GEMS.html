@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Josie Libbon</title>
+    <link href="volunteering.css" rel="stylesheet"/>
+</head>
+
+    <body>
+        <!-- Top gradient header and navigation -->
+        <header id="home" class="mainHeader">
+            <nav class="topnav" id="myTopnav">
+                <a href="index.html">Home</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Extracurriculars</button>
+                    <div class="dropdown-content">
+                      <a href="robotics.html">Robotics</a>
+                      <a href="FCCLA.html">FCCLA</a>
+                      <a href="council.html">The Councils</a>
+                      <a href="xc.html">XC</a>
+                      <a href="dance.html">Dance</a>
+                      <a href="so.html">Science Olympiad</a>
+                    </div>
+                  </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Volunteering</button>
+                    <div class="dropdown-content">
+                      <a href="dasher.html">Dasher's Magical Gift</a>
+                      <a href="symphoria.html">Symphoria</a>
+                      <a href="GEMS.html">GEMS Camp</a>
+                    </div>
+                  </div>
+                  <a href="school.html">School Life</a>
+            </nav>
+            <div class="nameContainer">
+                <h1>
+                    GEMS Camp
+                </h1>
+            </div>
+        </header>
+
+ 
+
+  
+    <!-- Section - Intro -->
+    <section id="gems"> 
+        <h2>GEMS Camp</h2>
+
+        <hr>
+
+        <p>
+            Volunteering as a Camp Counselor for the GEMS Camp is an experience I'll never forget. Being a girl in robotics club, it's not lost on me how large the gap is in the ratio of men to women in the STEM field. GEMS Camp is a camp recently started by my town to introduce girls in grades 5-7 to the many careers in STEM. Being able to watch these little girls develop their coding and robotics skills for the first time was such a beautiful thing and I'm so grateful I was able to help make it happen. 
+            
+        </p>
+
+        <p>
+            Seeing all the girls' faces light up with excitement when they'd finally gotten their robot to function autonomously gave me hope for the future equality of women and men in this career field. It almost felt like passing on the torch. As I go into my senior year and leave for college, hopefully these young girls will stay inspired and motivated to stick with STEM and develop their skills even more. 
+            
+            
+        </p>
+    </section>
+
+   <!-- Section - Gallery -->
+   <section id="gallery">
+    <h2>
+        Gallery
+    </h2>
+
+    <hr>
+        
+    <p>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 2</div>
+                <img src="./img/gems1.jpeg" style="width:100%">
+            </div> 
+            
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 2</div>
+                <img src="./img/gems2.jpeg" style="width:100%">
+            </div>
+                
+           
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+        </div>
+                
+        <br>
+                
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+
+                
+        </div>
+                
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+
+                if (n > slides.length) {
+                    slideIndex = 1
+                }    
+                if (n < 1) {
+                    slideIndex = slides.length
+                }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " active";
+            }
+        </script>
+    </p>
+</section>
+
+<!-- Footer -->
+<footer>
+        Thanks for Reading!
+</footer>
+
+</body>
+</html>
